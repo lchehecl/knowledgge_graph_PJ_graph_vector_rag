@@ -26,6 +26,7 @@ Designed for researchers in medical AI, especially those working with papers fro
 ### 1. Install Dependencies
 ```bash
 pip install neo4j sentence-transformers scikit-learn pandas torch dashscope tqdm
+```
 
 ### 2. Configure Neo4j & API Keys
 # export_neo4j.py
