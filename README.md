@@ -39,8 +39,10 @@ DASHSCOPE_API_KEY = "sk-xxxxxx"  # ← Replace!
 ### 3. Run the Pipeline
 🔹 Export KG
 python export_neo4j.py → graph_data.jsonl
+
 🔹 Embed with BGE-M3
 python re_embed_with_bge_m3.py → graph_data_bge-m3.jsonl
+
 🔹 Run RAG Demo
 python run_qwen_rag.py
 Compare vanilla vs RAG answers
